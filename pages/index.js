@@ -2,10 +2,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import styles from "../styles/Home.module.css"; // Custom CSS for styling
 import { useSession, signIn } from "next-auth/react";
-import Moodboard from '../components/Moodboard';
-import Lighting from '../components/Lighting';
-import Furniture from '../components/Furniture';
-import WallArt from '../components/WallArt';
+
 import InternetBedroom from '../components/InternetBedroom';
 
 export default function Home() {
