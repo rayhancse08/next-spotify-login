@@ -125,22 +125,23 @@ export default function Home() {
           <h2 className={styles.bedroomTitle}>
             Your Personalized Internet Bedroom Idea from gemini 🎶
           </h2>
-          <div className={styles.bedroomContent}>
-            <div className={styles.bedroomImage}>
-              <Image
-                src="/images/bedroom.webp"  // Replace with an image file for a personalized bedroom
-                alt="Personalized Bedroom"
-                width={700}
-                height={700}
-                className={styles.bedroomPhoto}
-              />
-            </div>
-            <div className={styles.bedroomDescription}>
+          <div className={styles.bedroomDescription}>
               <p>{bedroom}</p>
               {/* <button className={styles.exploreMoreBtn}>
                 Explore More Ideas
               </button> */}
             </div>
+          <div className={styles.bedroomContent}>
+            <div className={styles.bedroomImage}>
+              <Image
+                src="/images/bedroom.webp"  // Replace with an image file for a personalized bedroom
+                alt="Personalized Bedroom"
+                width={800}
+                height={800}
+                className={styles.bedroomPhoto}
+              />
+            </div>
+            
           </div>
         </div>
       ) : (

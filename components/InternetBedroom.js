@@ -148,7 +148,7 @@ export default function Home() {
           <div style={{
             position: 'absolute', 
             zIndex: 155, 
-            left: '7.1%', 
+            left: '12.1%', 
             top: '10.8906%', 
             width: '61.8%', 
             height: '46.0437%', 
@@ -173,7 +173,7 @@ export default function Home() {
           <div style={{
             position: 'absolute', 
             zIndex: 200, 
-            left: '60.95%', 
+            left: '20.95%', 
             top: '53.9156%', 
             width: '28.1%', 
             height: '26.0437%', 
@@ -198,7 +198,7 @@ export default function Home() {
           <div style={{
             position: 'absolute', 
             zIndex: 200, 
-            left: '6.85%', 
+            left: '2.85%', 
             top: '69.1875%', 
             width: '76.3%', 
             height: '33.5%', 
