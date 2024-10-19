@@ -15,6 +15,7 @@ export const authOptions = {
         "https://accounts.spotify.com/authorize?scope=user-read-email,playlist-read-private,user-library-read,user-top-read",
     }),
   ],
+  secret:'VshhRh2MDLxun6HclrbES6OeEd3vpIW0dvbKOAJ+pkQ=',
   callbacks: {
     async jwt({ token, account }) {
       if (account) {
