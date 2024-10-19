@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Jokker&family=EpilepsySansBold&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'EpilepsySansBold', sans-serif;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+
+
+/* styles/Home.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black; /* Background similar to the image you shared */
+    height: 100vh;
+    color: white;
+  }
+  
+  .deskArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .desk {
+    position: relative;
+  }
+  
+  .objects {
+    position: absolute;
+    top: 10px; /* Adjust to place objects on the desk */
+    left: 20px;
+  }
+  
+  .floor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  

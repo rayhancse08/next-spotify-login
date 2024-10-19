@@ -1,0 +1,43 @@
+.bedroom-container {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 20px;
+  }
+  
+  .bedroom-layout {
+    display: grid;
+    grid-template-areas: 
+      "wall wall wall"
+      "desk desk desk"
+      "floor floor floor";
+    gap: 20px;
+  }
+  
+  .wall {
+    grid-area: wall;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .desk {
+    grid-area: desk;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #111;
+    padding: 10px;
+  }
+  
+  .floor {
+    grid-area: floor;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .wall-item, .desk-item, .floor-item {
+    position: relative;
+  }
+  
